@@ -2341,3 +2341,735 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.16-20.15.11:828][784]LogSavePackage: Moving '../../../../../../Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/BP_SideScrollerCharacter022DBD224116A76DAFD3DCBBC9B5F58E.tmp' to '../../../../../../Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Content/SideScrollerKit/Blueprints/BP_SideScrollerCharacter.uasset'
 [2021.05.16-20.15.11:858][784]AssetCheck: New page: Asset Save: BP_SideScrollerCharacter
 [2021.05.16-20.15.11:858][784]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerKit/Blueprints/BP_SideScrollerCharacter.BP_SideScrollerCharacter
+[2021.05.16-20.17.18:893][674]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.16-20.17.18:897][674]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.16-20.17.18:898][674]LogPlayLevel: [PlayLevel] Compiling Main_menu before play...
+[2021.05.16-20.17.18:957][674]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2021.05.16-20.17.18:958][674]LogPlayLevel: PlayLevel: Blueprint regeneration took 60 ms (1 blueprints)
+[2021.05.16-20.17.18:958][674]PIE: New page: PIE session: Main_menu (May 16, 2021, 12:17:18 PM)
+[2021.05.16-20.17.18:959][674]LogPlayLevel: Creating play world package: /Game/SideScrollerKit/Maps/UEDPIE_0_Main_menu
+[2021.05.16-20.17.18:968][674]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008830s)
+[2021.05.16-20.17.18:969][674]LogAIModule: Creating AISystem for world Main_menu
+[2021.05.16-20.17.18:969][674]LogPlayLevel: PIE: World Init took: (0.001463s)
+[2021.05.16-20.17.18:969][674]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerKit/Maps/Main_menu.Main_menu to /Game/SideScrollerKit/Maps/UEDPIE_0_Main_menu.Main_menu (0.010465s)
+[2021.05.16-20.17.18:999][674]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.05.16-20.17.19:000][674]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.16-20.17.19:000][674]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.16-20.17.19:000][674]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.16-20.17.19:000][674]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.16-20.17.19:003][674]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.16-20.17.19:003][674]LogAudioMixer: Display: 1: FrontRight
+[2021.05.16-20.17.19:024][674]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2021.05.16-20.17.19:024][674]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.16-20.17.19:024][674]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.16-20.17.19:024][674]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.16-20.17.19:024][674]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.16-20.17.19:024][674]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.16-20.17.19:024][674]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.16-20.17.19:035][674]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.16-20.17.19:035][674]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.16-20.17.19:035][674]LogInit: FAudioDevice initialized.
+[2021.05.16-20.17.19:035][674]LogAudio: Display: Audio Device (ID: 4) registered with world 'Main_menu'.
+[2021.05.16-20.17.19:040][674]LogLoad: Game class is 'BP_Main_menu_game_mode_C'
+[2021.05.16-20.17.19:042][674]LogWorld: Bringing World /Game/SideScrollerKit/Maps/UEDPIE_0_Main_menu.Main_menu up for play (max tick rate 60) at 2021.05.16-16.17.19
+[2021.05.16-20.17.19:042][674]LogWorld: Bringing up level for play took: 0.001630
+[2021.05.16-20.17.19:042][674]LogOnline: OSS: Creating online subsystem instance for: :Context_63
+[2021.05.16-20.17.19:043][674]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.16-20.17.19:043][674]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.16-20.17.19:043][674]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.16-20.17.19:045][674]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockAlways
+[2021.05.16-20.17.19:045][674]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2021.05.16-20.17.19:045][674]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2021.05.16-20.17.19:045][674]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.16-20.17.19:045][674]PIE: Server logged in
+[2021.05.16-20.17.19:045][674]PIE: Play in editor total start time 0.148 seconds.
+[2021.05.16-20.17.19:046][674]LogInput: Error: Duplicate mapping of key MouseX for axis Turn
+[2021.05.16-20.17.19:046][674]LogInput: Error: Duplicate mapping of key Gamepad_RightX for axis Turn Right/Left
+[2021.05.16-20.17.19:046][674]LogInput: Error: Duplicate mapping of key Gamepad_RightY for axis LookUpGamepad
+[2021.05.16-20.17.19:046][674]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis Ladder Move Up
+[2021.05.16-20.17.19:046][674]LogBlueprintUserMessages: [None] progress loaded
+[2021.05.16-20.17.19:046][674]LogBlueprintUserMessages: [None] progress loaded
+[2021.05.16-20.17.19:047][674]Cmd: r.PostProcessAAQuality 6
+[2021.05.16-20.17.19:047][674]r.PostProcessAAQuality = "6"
+[2021.05.16-20.17.19:047][674]Cmd: sg.PostProcessQuality 3
+[2021.05.16-20.17.19:047][674]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.16-20.17.19:047][674]sg.PostProcessQuality = "3"
+[2021.05.16-20.17.19:047][674]Cmd: sg.ShadowQuality  3
+[2021.05.16-20.17.19:047][674]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.16-20.17.19:047][674]sg.ShadowQuality = "3"
+[2021.05.16-20.17.19:047][674]Cmd: sg.TextureQuality 3
+[2021.05.16-20.17.19:047][674]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.16-20.17.19:047][674]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.16-20.17.19:048][674]sg.TextureQuality = "3"
+[2021.05.16-20.17.19:048][674]Cmd: sg.EffectsQuality 3
+[2021.05.16-20.17.19:048][674]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.16-20.17.19:048][674]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.05.16-20.17.19:048][674]sg.EffectsQuality = "3"
+[2021.05.16-20.17.19:048][674]Cmd: r.SetRes 1920x1080
+[2021.05.16-20.17.19:048][674]r.SetRes = "1920x1080"
+[2021.05.16-20.17.19:048][674]LogBlueprintUserMessages: [None] Options loaded
+[2021.05.16-20.17.19:049][674]LogBlueprintUserMessages: [None] Options saved
+[2021.05.16-20.17.19:049][674]Cmd: r.PostProcessAAQuality 6
+[2021.05.16-20.17.19:049][674]r.PostProcessAAQuality = "6"
+[2021.05.16-20.17.19:049][674]Cmd: sg.PostProcessQuality 3
+[2021.05.16-20.17.19:049][674]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.16-20.17.19:049][674]sg.PostProcessQuality = "3"
+[2021.05.16-20.17.19:049][674]Cmd: sg.ShadowQuality  3
+[2021.05.16-20.17.19:049][674]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.16-20.17.19:049][674]sg.ShadowQuality = "3"
+[2021.05.16-20.17.19:049][674]Cmd: sg.TextureQuality 3
+[2021.05.16-20.17.19:049][674]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.16-20.17.19:049][674]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.16-20.17.19:050][674]sg.TextureQuality = "3"
+[2021.05.16-20.17.19:050][674]Cmd: sg.EffectsQuality 3
+[2021.05.16-20.17.19:050][674]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.16-20.17.19:050][674]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.05.16-20.17.19:050][674]sg.EffectsQuality = "3"
+[2021.05.16-20.17.19:050][674]Cmd: r.SetRes 1920x1080
+[2021.05.16-20.17.19:050][674]r.SetRes = "1920x1080"
+[2021.05.16-20.17.22:979][902]Cmd: r.PostProcessAAQuality 6
+[2021.05.16-20.17.22:979][902]r.PostProcessAAQuality = "6"
+[2021.05.16-20.17.22:979][902]Cmd: sg.PostProcessQuality 3
+[2021.05.16-20.17.22:979][902]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.16-20.17.22:979][902]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.16-20.17.22:980][902]sg.PostProcessQuality = "3"
+[2021.05.16-20.17.22:980][902]Cmd: sg.ShadowQuality  3
+[2021.05.16-20.17.22:980][902]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.16-20.17.22:980][902]sg.ShadowQuality = "3"
+[2021.05.16-20.17.22:980][902]Cmd: sg.TextureQuality 3
+[2021.05.16-20.17.22:980][902]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.16-20.17.22:980][902]sg.TextureQuality = "3"
+[2021.05.16-20.17.22:980][902]Cmd: sg.EffectsQuality 3
+[2021.05.16-20.17.22:980][902]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.16-20.17.22:980][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.05.16-20.17.22:981][902]sg.EffectsQuality = "3"
+[2021.05.16-20.17.22:981][902]Cmd: r.SetRes 1920x1080
+[2021.05.16-20.17.22:981][902]r.SetRes = "1920x1080"
+[2021.05.16-20.17.22:981][902]LogBlueprintUserMessages: [None] Options loaded
+[2021.05.16-20.17.22:981][902]LogBlueprintUserMessages: [None] Options saved
+[2021.05.16-20.17.22:981][902]Cmd: r.PostProcessAAQuality 6
+[2021.05.16-20.17.22:981][902]r.PostProcessAAQuality = "6"
+[2021.05.16-20.17.22:981][902]Cmd: sg.PostProcessQuality 3
+[2021.05.16-20.17.22:981][902]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.16-20.17.22:981][902]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.16-20.17.22:982][902]sg.PostProcessQuality = "3"
+[2021.05.16-20.17.22:982][902]Cmd: sg.ShadowQuality  3
+[2021.05.16-20.17.22:982][902]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.16-20.17.22:982][902]sg.ShadowQuality = "3"
+[2021.05.16-20.17.22:982][902]Cmd: sg.TextureQuality 3
+[2021.05.16-20.17.22:982][902]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.16-20.17.22:982][902]sg.TextureQuality = "3"
+[2021.05.16-20.17.22:982][902]Cmd: sg.EffectsQuality 3
+[2021.05.16-20.17.22:982][902]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.16-20.17.22:982][902]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.16-20.17.22:983][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.16-20.17.22:983][902]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.16-20.17.22:983][902]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.16-20.17.22:983][902]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.05.16-20.17.22:983][902]sg.EffectsQuality = "3"
+[2021.05.16-20.17.22:983][902]Cmd: r.SetRes 1920x1080
+[2021.05.16-20.17.22:983][902]r.SetRes = "1920x1080"
+[2021.05.16-20.17.24:179][974]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2021.05.16-20.17.24:179][974]LogGameState: Match State Changed from InProgress to LeavingMap
+[2021.05.16-20.17.24:179][974]LogNet: Browse: /Game/SideScrollerKit/Maps/Demo_Map
+[2021.05.16-20.17.24:179][974]LogLoad: LoadMap: /Game/SideScrollerKit/Maps/Demo_Map
+[2021.05.16-20.17.24:179][974]LogWorld: BeginTearingDown for /Game/SideScrollerKit/Maps/UEDPIE_0_Main_menu
+[2021.05.16-20.17.24:180][974]LogWorld: UWorld::CleanupWorld for Main_menu, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-20.17.24:181][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-20.17.24:246][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.16-20.17.24:251][974]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2021.05.16-20.17.24:481][974]LogAudio: Display: Audio Device (ID: 4) registered with world 'Demo_Map'.
+[2021.05.16-20.17.24:481][974]LogAIModule: Creating AISystem for world Demo_Map
+[2021.05.16-20.17.24:482][974]LogLoad: Game class is 'BP_SideScroller_Game_Mode_C'
+[2021.05.16-20.17.24:594][974]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'RoomNames' of length 0 in '/Game/SideScrollerKit/Blueprints/DemoRoom/BP_DemoRoom.BP_DemoRoom_C'!
+[2021.05.16-20.17.24:725][974]LogWorld: Bringing World /Game/SideScrollerKit/Maps/UEDPIE_0_Demo_Map.Demo_Map up for play (max tick rate 60) at 2021.05.16-16.17.24
+[2021.05.16-20.17.24:731][974]LogWorld: Bringing up level for play took: 0.248330
+[2021.05.16-20.17.24:732][974]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.05.16-20.17.24:732][974]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.16-20.17.24:732][974]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.05.16-20.17.24:732][974]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.05.16-20.17.24:768][974]Cmd: r.PostProcessAAQuality 6
+[2021.05.16-20.17.24:768][974]r.PostProcessAAQuality = "6"
+[2021.05.16-20.17.24:769][974]Cmd: sg.PostProcessQuality 3
+[2021.05.16-20.17.24:769][974]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.16-20.17.24:769][974]sg.PostProcessQuality = "3"
+[2021.05.16-20.17.24:769][974]Cmd: sg.ShadowQuality  3
+[2021.05.16-20.17.24:769][974]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.16-20.17.24:769][974]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.16-20.17.24:770][974]sg.ShadowQuality = "3"
+[2021.05.16-20.17.24:770][974]Cmd: sg.TextureQuality 3
+[2021.05.16-20.17.24:770][974]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.16-20.17.24:770][974]sg.TextureQuality = "3"
+[2021.05.16-20.17.24:770][974]Cmd: sg.EffectsQuality 3
+[2021.05.16-20.17.24:770][974]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.16-20.17.24:770][974]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.05.16-20.17.24:770][974]sg.EffectsQuality = "3"
+[2021.05.16-20.17.24:770][974]Cmd: r.SetRes 1920x1080
+[2021.05.16-20.17.24:770][974]r.SetRes = "1920x1080"
+[2021.05.16-20.17.24:770][974]LogBlueprintUserMessages: [None] Options loaded
+[2021.05.16-20.17.24:771][974]LogBlueprintUserMessages: [None] Options saved
+[2021.05.16-20.17.24:771][974]Cmd: r.PostProcessAAQuality 6
+[2021.05.16-20.17.24:771][974]r.PostProcessAAQuality = "6"
+[2021.05.16-20.17.24:771][974]Cmd: sg.PostProcessQuality 3
+[2021.05.16-20.17.24:771][974]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.16-20.17.24:771][974]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.16-20.17.24:771][974]sg.PostProcessQuality = "3"
+[2021.05.16-20.17.24:772][974]Cmd: sg.ShadowQuality  3
+[2021.05.16-20.17.24:772][974]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.16-20.17.24:772][974]sg.ShadowQuality = "3"
+[2021.05.16-20.17.24:772][974]Cmd: sg.TextureQuality 3
+[2021.05.16-20.17.24:772][974]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.16-20.17.24:772][974]sg.TextureQuality = "3"
+[2021.05.16-20.17.24:772][974]Cmd: sg.EffectsQuality 3
+[2021.05.16-20.17.24:772][974]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Config/Windows/Scalability.ini]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.16-20.17.24:772][974]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2021.05.16-20.17.24:772][974]sg.EffectsQuality = "3"
+[2021.05.16-20.17.24:773][974]Cmd: r.SetRes 1920x1080
+[2021.05.16-20.17.24:773][974]r.SetRes = "1920x1080"
+[2021.05.16-20.17.24:773][974]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.05.16-20.17.24:773][974]LogLoad: Took 0.593341 seconds to LoadMap(/Game/SideScrollerKit/Maps/Demo_Map)
+[2021.05.16-20.17.24:773][974]LogInput: Error: Duplicate mapping of key MouseX for axis Turn
+[2021.05.16-20.17.24:773][974]LogInput: Error: Duplicate mapping of key Gamepad_RightX for axis Turn Right/Left
+[2021.05.16-20.17.24:773][974]LogInput: Error: Duplicate mapping of key Gamepad_RightY for axis LookUpGamepad
+[2021.05.16-20.17.24:773][974]LogInput: Error: Duplicate mapping of key Gamepad_LeftY for axis Ladder Move Up
+[2021.05.16-20.17.31:009][299]LogBlueprintUserMessages: [BP_Human_AI_Pistol_Easy_1657] Side Scroller AI - Switch BT Alarmed Sub State - switching to "AI heard player" - can't change - current state is equal to target state Actor (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.31:009][299]LogBlueprintUserMessages: [BP_Human_AI_Rifle_Med_2309] Side Scroller AI - Switch BT Alarmed Sub State - switching to "AI heard player" - can't change - current state is equal to target state Actor (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.32:415][371]LogBlueprintUserMessages: [ABP_Mannequin_AI_C_0] Anim BP - look around finished! (ABP_Mannequin_AI_C_0) Character(BP_Human_AI_Rifle_Med)
+[2021.05.16-20.17.32:453][373]LogBlueprintUserMessages: [ABP_Mannequin_AI_C_0] Anim BP - look around finished! (ABP_Mannequin_AI_C_0) Character(BP_Human_AI_Pistol_Easy)
+[2021.05.16-20.17.32:879][395]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Found   2 potential cover points (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.32:879][395]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Found valid 2 cover points(s) (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.32:879][395]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Target cover point(BP_AI_Cover_point2) (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.32:936][398]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Found   2 potential cover points (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.32:937][398]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Found valid 1 cover points(s) (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.32:937][398]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Only 1 valid cover point found - skipping path lenght comparison (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.32:937][398]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Target cover point(BP_AI_Cover_point) (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.40:304][759]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Found   2 potential cover points (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.40:304][759]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - could not find any valid cover points (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.40:304][759]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Going to defined cover point ("Force cover point" or "Use preferred cover point" in character is set to true) Target forced cover point actor(BP_AI_Cover_point2) (BP_Human_AI_Rifle_Med) Controller(BP_Human_AI_CON5)
+[2021.05.16-20.17.41:820][833]LogAudio: Display: Cached duration for Sound Cue SoundCue /Game/SideScrollerKit/Audio/Sci_fi_sounds/SC_blaster_shot.SC_blaster_shot was zero and has changed. Consider manually Re-saving the asset
+[2021.05.16-20.17.44:180][945]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Found   2 potential cover points (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.44:180][945]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - could not find any valid cover points (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.44:180][945]LogBlueprintUserMessages: [BTTask_Find_Cover_Point_C_1] BTTask - move to cover - Going to defined cover point ("Force cover point" or "Use preferred cover point" in character is set to true) Target forced cover point actor(BP_AI_Cover_point) (BP_Human_AI_Pistol_Easy) Controller(BP_Human_AI_CON)
+[2021.05.16-20.17.44:248][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.16-20.17.44:248][947]LogWorld: BeginTearingDown for /Game/SideScrollerKit/Maps/UEDPIE_0_Demo_Map
+[2021.05.16-20.17.44:250][947]LogWorld: UWorld::CleanupWorld for Demo_Map, bSessionEnded=true, bCleanupResources=true
+[2021.05.16-20.17.44:260][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-20.17.44:269][947]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.16-20.17.44:278][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.16-20.17.44:306][947]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.16-20.17.44:316][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.16-20.17.44:317][947]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.16-20.17.44:359][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.16-20.17.44:384][947]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.05.16-20.17.44:412][948]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2021.05.16-20.19.27:409][895]BlueprintLog: New page: Compile BP_SideScrollerCharacter
+[2021.05.16-20.19.28:466][895]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2021.05.16-20.19.34:938][232]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2021.05.16-20.19.34:983][232]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.05.16-20.19.35:019][232]LogSavePackage: Moving '../../../../../../Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/Main_menuAF0711A748E347E46E41BC95D9C9F630.tmp' to '../../../../../../Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Content/SideScrollerKit/Maps/Main_menu.umap'
+[2021.05.16-20.19.35:023][232]LogFileHelpers: Saving map 'Main_menu' took 0.068
+[2021.05.16-20.19.37:021][232]LogSavePackage: Moving '../../../../../../Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Saved/BP_SideScrollerCharacterC4655AEB4439F79E8502C28E1D861491.tmp' to '../../../../../../Users/cthoi/Documents/GitHub/NewtonsMutant/NewtonsMutant/Content/SideScrollerKit/Blueprints/BP_SideScrollerCharacter.uasset'
+[2021.05.16-20.19.37:045][232]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.16-20.19.37:045][232]LogContentValidation: Display: Validating Blueprint /Game/SideScrollerKit/Blueprints/BP_SideScrollerCharacter.BP_SideScrollerCharacter
+[2021.05.16-20.19.37:045][232]LogContentValidation: Display: Validating World /Game/SideScrollerKit/Maps/Main_menu.Main_menu
