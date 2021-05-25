@@ -680,3 +680,27 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.24-23.17.07:005][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
 [2021.05.24-23.18.15:878][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
 [2021.05.24-23.18.47:405][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected.
+[2021.05.25-00.47.32:338][  0]LogSlate: Window 'Low drive space warning' being destroyed
+[2021.05.25-00.47.33:121][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.05.25-00.47.33:320][  0]Message dialog closed, result: Ok, title: Low drive space warning, text: The following drive locations have limited free space.
+It is recommended that you free some space to avoid issues such as crashed and data loss due to files not being able to be written and saved.
+
+  1,911 MB Free 		 C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/Win64/
+ 				 The base engine directory. 
+
+  1,911 MB Free 		 C:/Users/taylo/Desktop/PTC/NewtonsMutant/NewtonsMutant/
+ 				 The project directory. 
+
+[2021.05.25-00.47.56:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/taylo/Desktop/PTC/NewtonsMutant/NewtonsMutant/Content/' took 0.34s
+[2021.05.25-00.47.56:696][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.05.25-00.47.56:756][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.25-00.48.20:579][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.05.25-00.48.22:609][  0]SourceControl: Source control is disabled
+[2021.05.25-00.48.22:613][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7728.363
+[2021.05.25-00.48.22:679][  0]Cmd: MAP LOAD FILE="../../../../../../Users/taylo/Desktop/PTC/NewtonsMutant/NewtonsMutant/Content/SideScrollerKit/Maps/Demo_Map.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.25-00.48.22:724][  0]LightingResults: New page: Lighting Build
+[2021.05.25-00.48.23:020][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.25-00.48.23:081][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.25-00.48.23:110][  0]MapCheck: New page: Map Check
+[2021.05.25-00.48.23:110][  0]LightingResults: New page: Lighting Build
+[2021.05.25-00.48.27:229][  0]LogUObjectHash: Compacting FUObjectHashTables data took 1650.51ms
